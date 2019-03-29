@@ -1,0 +1,78 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background:url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.input_Style{
+  background: #F2C14E; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(45deg, #ff5f6d , #ffc371); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(45deg, #ff5f6d , #ffc371); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(45deg, #ff5f6d , #ffc371); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(45deg, #ff5f6d , #ffc371); /* Standard syntax */
+  width: 300px;
+  height: 500px;
+  border-radius: 10px 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.input_Input{
+  width: 250px;
+  height: 30px;
+  border: 1px solid white;
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   background-color:transparent;
+
+}
+#input_Submit{
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+    width: 200px;
+    height: 25px;
+    border: none;
+    border-radius: 50px;
+    background-color:white;
+    color:orange;
+}
+
+#img_logo{
+  width: 250px;
+  height: 150px;
+  border-radius: 10px 10px 0px 0px;
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#checkbox_blank{
+  margin: 0;
+  background-color: transparent;
+}
+
+#material-icons{
+  background-color: transparent;
+}
+
+.mnbtn{
+  background-color: transparent;
+  border: none;
+  margin-left: 17px;
+  margin-bottom:10px;
+}
+
+#rM{
+  float: right;
+    position: fixed;
+    top: 250px;
+    left: 50px;
+}
